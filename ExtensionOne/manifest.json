@@ -1,0 +1,18 @@
+{
+  "name": "URL Shortener",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "clipboardWrite"
+  ],"host_permissions": [
+    "https://www.sarbeh.com/api/Gextn","https://www.qlm.one/*"
+],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
